@@ -9,7 +9,7 @@ These instructions will help you set up and run the project on your local machin
 ### Prerequisites
 
 - Python 3.x
-- Flask (install using `pip install Flask`)
+- Flask 
 
 ### Installation
 
