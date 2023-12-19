@@ -34,7 +34,7 @@ These instructions will help you set up and run the project on your local machin
 
 The server will start on http://127.0.0.1:5000/.
 
-1. Use a tool like curl or Postman to simulate file uploads:
+2. Use a tool like curl or Postman to simulate file uploads:
    ```bash
    curl -X POST -F "file=@/path/to/your/document.pdf" http://localhost:5000/upload
    
