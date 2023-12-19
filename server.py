@@ -1,6 +1,10 @@
 from flask import Flask, request, jsonify
-
+import os
 app = Flask(__name__)
+
+
+upload_folder = os.path.abspath('uploads')
+os.makedirs(upload_folder, exist_ok=True)
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
