@@ -1,6 +1,6 @@
 # Document Upload Server
 
-This project is a simple Flask application that provides an endpoint for uploading documents to a server. It can be used to test the functionality of automatically sending documents to a server using a Python script.
+This project is a simple Flask application that provides an endpoint for uploading documents to a server. It can be used to test the functionality of automatically sending documents to a server using a Python script. It watches a specified folder then sends what's added in that specific folder then sends a request that contains the new file to a server.
 
 ## Getting Started
 
